@@ -47,9 +47,9 @@
 
   <!-- Category Buttons -->
   <div>
-    <div class="button" onclick="showCategory('streetwear')">👗 Women's Streetwear</div>
-    <div class="button" onclick="showCategory('lingerie')">💖 Lingerie</div>
-    <div class="button" onclick="showCategory('toys')">💋 Couples Toys</div>
+    <div class="button" onclick="showCategory('streetwear')">👗 ropa de mujer </div>
+      <div class="button" onclick="showCategory('lingerie')">💖 lencería </div>
+    <div class="button" onclick="showCategory('toys')">💋 juguetes para parejas </div>
     <a href="mailto:info@pinktentaciontienda.com" target="_blank" class="button">📩 Contact / Wholesale</a>
   </div>
 
