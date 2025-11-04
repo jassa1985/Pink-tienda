@@ -43,7 +43,7 @@
 
   <img src="https://via.placeholder.com/120/FF69B4/000000?text=Logo" alt="Pink Tentacion Tienda Logo" class="logo">
   <h1>Pink Tentacion Tienda</h1>
-  <p class="tagline">Women's Streetwear ✦ Lingerie ✦ Couples Toys</p>
+  <p class="tagline"> ropa de mujer ✦  lencería  ✦  juguetes para parejas </p>
 
   <!-- Category Buttons -->
   <div>
