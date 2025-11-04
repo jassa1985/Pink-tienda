@@ -69,7 +69,7 @@
   <div id="lingerie" class="category">
     <h2> lencería </h2>
     <div class="product">
-      <img src="https://i.imgur.com/E8GEghW.jpeg" alt="Lingerie 1">
+      <img src="https://via.placeholder.com/300x400/ff69b4/ffffff?text=Streetwear+1" alt="Streetwear 1">alt="Lingerie 1">
       <a href="https://www.instagram.com/pinktentaciontienda?igsh=azE5djllamZzcGs4&utm_source=qr" target="_blank">DM to Purchase</a>
     </div>
     <div class="product">
