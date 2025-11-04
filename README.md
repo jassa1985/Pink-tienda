@@ -55,7 +55,7 @@
 
   <!-- Categories -->
   <div id="streetwear" class="category">
-    <h2>Women's Streetwear</h2>
+    <h2> ropa de mujer </h2>
     <div class="product">
       <img src="https://via.placeholder.com/300x400/FF69B4/000000?text=Streetwear+1" alt="Streetwear 1">
       <a href="https://www.instagram.com/pinktentaciontienda?igsh=azE5djllamZzcGs4&utm_source=qr" target="_blank">DM to Purchase</a>
@@ -67,7 +67,7 @@
   </div>
 
   <div id="lingerie" class="category">
-    <h2>Lingerie</h2>
+    <h2> lencería </h2>
     <div class="product">
       <img src="https://via.placeholder.com/300x400/FF69B4/000000?text=Lingerie+1" alt="Lingerie 1">
       <a href="https://www.instagram.com/pinktentaciontienda?igsh=azE5djllamZzcGs4&utm_source=qr" target="_blank">DM to Purchase</a>
@@ -79,7 +79,7 @@
   </div>
 
   <div id="toys" class="category">
-    <h2>Couples Toys</h2>
+    <h2> juguetes para parejas </h2>
     <div class="product">
       <img src="https://via.placeholder.com/300x400/FF69B4/000000?text=Toy+1" alt="Toy 1">
       <a href="https://www.instagram.com/pinktentaciontienda?igsh=azE5djllamZzcGs4&utm_source=qr" target="_blank">DM to Purchase</a>
