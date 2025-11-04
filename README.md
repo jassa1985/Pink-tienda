@@ -61,7 +61,7 @@
       <a href="https://www.instagram.com/pinktentaciontienda?igsh=azE5djllamZzcGs4&utm_source=qr" target="_blank">DM to Purchase</a>
     </div>
     <div class="product">
-      <img src="https://i.imgur.com/RRQ3oYq.jpeg" alt="Streetwear 2">
+      <img src="https://www.vecteezy.com/photo/52005680-elegant-blue-lingerie-set-displayed-on-white-backgroundalt"="Streetwear 2">
       <a href="https://www.instagram.com/pinktentaciontienda?igsh=azE5djllamZzcGs4&utm_source=qr" target="_blank">DM to Purchase</a>
     </div>
   </div>
