@@ -1,2 +1,109 @@
-# Pink-tienda
-Online store
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pink Tentacion Tienda</title>
+  <style>
+    :root {
+      --main-color: #ff69b4;
+      --accent-color: #111;
+      --bg-color: #fff;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+    body { text-align: center; background: var(--bg-color); color: var(--accent-color); padding: 20px; }
+    img.logo { width: 120px; border-radius: 50%; margin-bottom: 15px; }
+    h1 { font-size: 1.8rem; margin-bottom: 8px; }
+    p.tagline { color: #555; margin-bottom: 25px; font-size: 1rem; }
+    .button {
+      display: block;
+      text-decoration: none;
+      color: #fff;
+      background: var(--main-color);
+      padding: 14px;
+      margin: 10px auto;
+      width: 85%;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+    .button:hover { background: #e60084; }
+    .category { display: none; margin-top: 20px; }
+    .product { margin: 15px 0; }
+    .product img { width: 80%; max-width: 300px; border-radius: 10px; }
+    .product a { display: block; margin-top: 5px; color: var(--main-color); font-weight: 600; text-decoration: none; }
+    .product a:hover { text-decoration: underline; }
+    .socials a { margin: 10px; text-decoration: none; color: var(--accent-color); font-size: 1.6rem; }
+    .socials a:hover { color: var(--main-color); }
+    footer { font-size: 0.85rem; color: #777; margin-top: 30px; }
+  </style>
+</head>
+<body>
+
+  <img src="https://via.placeholder.com/120/FF69B4/000000?text=Logo" alt="Pink Tentacion Tienda Logo" class="logo">
+  <h1>Pink Tentacion Tienda</h1>
+  <p class="tagline">Women's Streetwear ✦ Lingerie ✦ Couples Toys</p>
+
+  <!-- Category Buttons -->
+  <div>
+    <div class="button" onclick="showCategory('streetwear')">👗 Women's Streetwear</div>
+    <div class="button" onclick="showCategory('lingerie')">💖 Lingerie</div>
+    <div class="button" onclick="showCategory('toys')">💋 Couples Toys</div>
+    <a href="mailto:info@pinktentaciontienda.com" target="_blank" class="button">📩 Contact / Wholesale</a>
+  </div>
+
+  <!-- Categories -->
+  <div id="streetwear" class="category">
+    <h2>Women's Streetwear</h2>
+    <div class="product">
+      <img src="https://via.placeholder.com/300x400/FF69B4/000000?text=Streetwear+1" alt="Streetwear 1">
+      <a href="https://www.instagram.com/pinktentaciontienda?igsh=azE5djllamZzcGs4&utm_source=qr" target="_blank">DM to Purchase</a>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/300x400/FF69B4/000000?text=Streetwear+2" alt="Streetwear 2">
+      <a href="https://www.instagram.com/pinktentaciontienda?igsh=azE5djllamZzcGs4&utm_source=qr" target="_blank">DM to Purchase</a>
+    </div>
+  </div>
+
+  <div id="lingerie" class="category">
+    <h2>Lingerie</h2>
+    <div class="product">
+      <img src="https://via.placeholder.com/300x400/FF69B4/000000?text=Lingerie+1" alt="Lingerie 1">
+      <a href="https://www.instagram.com/pinktentaciontienda?igsh=azE5djllamZzcGs4&utm_source=qr" target="_blank">DM to Purchase</a>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/300x400/FF69B4/000000?text=Lingerie+2" alt="Lingerie 2">
+      <a href="https://www.instagram.com/pinktentaciontienda?igsh=azE5djllamZzcGs4&utm_source=qr" target="_blank">DM to Purchase</a>
+    </div>
+  </div>
+
+  <div id="toys" class="category">
+    <h2>Couples Toys</h2>
+    <div class="product">
+      <img src="https://via.placeholder.com/300x400/FF69B4/000000?text=Toy+1" alt="Toy 1">
+      <a href="https://www.instagram.com/pinktentaciontienda?igsh=azE5djllamZzcGs4&utm_source=qr" target="_blank">DM to Purchase</a>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/300x400/FF69B4/000000?text=Toy+2" alt="Toy 2">
+      <a href="https://www.instagram.com/pinktentaciontienda?igsh=azE5djllamZzcGs4&utm_source=qr" target="_blank">DM to Purchase</a>
+    </div>
+  </div>
+
+  <!-- Socials -->
+  <div class="socials">
+    <a href="https://www.instagram.com/pinktentaciontienda?igsh=azE5djllamZzcGs4&utm_source=qr" target="_blank">📸 Instagram</a>
+  </div>
+
+  <footer>© 2025 Pink Tentacion Tienda. Discreet Shipping • Worldwide.</footer>
+
+  <script>
+    function showCategory(categoryId) {
+      const categories = document.querySelectorAll('.category');
+      categories.forEach(cat => cat.style.display = 'none'); // hide all
+      document.getElementById(categoryId).style.display = 'block'; // show selected
+      window.scrollTo({ top: 0, behavior: 'smooth' }); // scroll to top
+    }
+  </script>
+</body>
+</html>
