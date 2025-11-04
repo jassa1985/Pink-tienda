@@ -95,7 +95,7 @@
     <a href="https://www.instagram.com/pinktentaciontienda?igsh=azE5djllamZzcGs4&utm_source=qr" target="_blank">📸 Instagram</a>
   </div>
 
-  <footer>© 2025 Pink Tentacion Tienda. Discreet Shipping • Worldwide.</footer>
+  <footer>© 2025 Pink Tentacion Tienda.  envío discreto • envio toda pais.</footer>
 
   <script>
     function showCategory(categoryId) {
