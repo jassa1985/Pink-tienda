@@ -43,19 +43,19 @@
 
   <img src="https://i.imgur.com/sltCN5x.png" alt="Pink Tentacion Tienda Logo" class="logo">
   <h1>Pink Tentacion Tienda</h1>
-  <p class="tagline">Women's Streetwear ✦ Lingerie ✦ Couples Toys</p>
+  <p class="tagline"> ropa de mujer ✦  lencería ✦  juguetes para parejas </p>
 
   <!-- Category Buttons -->
   <div>
-    <div class="button" onclick="showCategory('streetwear')">👗 Women's Streetwear</div>
-    <div class="button" onclick="showCategory('lingerie')">💖 Lingerie</div>
-    <div class="button" onclick="showCategory('toys')">💋 Couples Toys</div>
-    <a href="mailto:info@pinktentaciontienda.com" target="_blank" class="button">📩 Contact / Wholesale</a>
+    <div class="button" onclick="showCategory('streetwear')">👗 ropa de mujer </div>
+    <div class="button" onclick="showCategory('lingerie')">💖 lencería </div>
+    <div class="button" onclick="showCategory('toys')">💋  juguetes para parejas </div>
+    <a href="mailto:" target="_blank" class="button">📩 Contacto</a>
   </div>
 
   <!-- Categories -->
   <div id="streetwear" class="category">
-    <h2>Women's Streetwear</h2>
+    <h2> ropa de mujer </h2>
     <div class="product">
       <img src="https://i.imgur.com/D3AKcXj.jpeg" alt="Streetwear 1">
       <a href="https://www.instagram.com/pinktentaciontienda?igsh=azE5djllamZzcGs4&utm_source=qr" target="_blank">DM to Purchase</a>
@@ -67,7 +67,7 @@
   </div>
 
   <div id="lingerie" class="category">
-    <h2>Lingerie</h2>
+    <h2> lencería </h2>
     <div class="product">
       <img src="https://i.imgur.com/E8GEghW.jpeg" alt="Lingerie 1">
       <a href="https://www.instagram.com/pinktentaciontienda?igsh=azE5djllamZzcGs4&utm_source=qr" target="_blank">DM to Purchase</a>
@@ -79,7 +79,7 @@
   </div>
 
   <div id="toys" class="category">
-    <h2>Couples Toys</h2>
+    <h2> juguetes para parejas </h2>
     <div class="product">
       <img src="https://i.imgur.com/y6ZzWkl.jpeg" alt="Toy 1">
       <a href="https://www.instagram.com/pinktentaciontienda?igsh=azE5djllamZzcGs4&utm_source=qr" target="_blank">DM to Purchase</a>
